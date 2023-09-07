@@ -205,6 +205,11 @@ case "$TERM" in
         ;;
 esac
  
+case "$TERM" in
+    screen)
+        export TERM=screen-256color
+        ;;
+esac
 precmd() {
     # Print the previously configured title
     print -Pnr -- "$TERM_TITLE"
