@@ -1,0 +1,5 @@
+# Boot oh-my-zsh framwork
+source ~/.zsh/omz_boot.sh
+
+# Aliases
+source ~/.shell/aliases.sh
