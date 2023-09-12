@@ -13,5 +13,6 @@
     ~/.zsh:
     ~/.oh-my-zsh: zsh/ohmyzsh
     ~/.shell:
+    ~/.bashrc:
 
 - shell: [git submodule update --init --recursive, Installing submodules]
