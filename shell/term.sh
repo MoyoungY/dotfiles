@@ -9,3 +9,5 @@ case "$TERM" in
         export TERM=screen-256color
         ;;
 esac
+
+set -o vi
